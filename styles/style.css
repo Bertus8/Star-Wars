@@ -1,0 +1,26 @@
+.container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.character_contain{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.character_img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+    height: 350px;
+}
