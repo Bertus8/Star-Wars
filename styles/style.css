@@ -1,26 +1,68 @@
+@import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi);
+
+body{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
+    font-family: 'Star Jedi', arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+h1{
+    text-align: center;
+    color: gold;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgb(255, 255, 255), 0 0.5px 0 #141414, 0 1px 0 #2b2b2b, 0 2px 0 #000000, 0 3px 0 #000000, 0 4px 0 #000000, 0 5px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+h2{
+    text-align: center;
+    color: gold;
+}
+strong{
+    color: gold;
+    text-transform: uppercase;
+}
 .container{
     max-width: 100%;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .character_contain{
-    width: 500px;
-    height: 500px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    margin:10px;
 }
+.character_items{
+    width:100%;
+    margin:0;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    letter-spacing: .1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .character_img{
-    max-width: 200px;
-    max-height: 200px;
-    padding: 20px;
-    margin:20px;
+    width: 300px;
+    max-height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-wrap: wrap;
+    justify-content:center;
 }
+.character_img:hover{
+    width: 310px;
+    height: 540px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  }
 img{
-    width: 200px;
-    height: 350px;
+    width: 100%;
+    border-radius: 20px;
 }
