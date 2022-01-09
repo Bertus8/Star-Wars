@@ -44,7 +44,7 @@ strong{
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 0px 0px 30px rgb(255, 0, 0);  
-    background-color: #ffffff;
+    background-color: #ffffffe0;
     background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
 }
 .character_contain{
@@ -68,6 +68,7 @@ strong{
     letter-spacing: .1em;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
 }
 
 .character_img{
@@ -150,6 +151,7 @@ img{
         letter-spacing: .1em;
         font-family: Arial, Helvetica, sans-serif;
         text-transform: capitalize;
+        box-shadow: 5px 5px 10px rgb(255, 0, 0);
     }
     .character_img{
         width: 200px;
