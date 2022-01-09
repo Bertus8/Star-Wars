@@ -102,7 +102,7 @@ const createCharacter = async () => {
             `
         div$$.appendChild(imgDiv$$);    
         }
-          if(speciesRes.name === `Sullustan`){
+        if(speciesRes.name === `Sullustan`){
             const imgDiv$$ = document.createElement("div");
             imgDiv$$.innerHTML = `
             <div class="character_img">
